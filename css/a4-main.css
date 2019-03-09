@@ -1,0 +1,65 @@
+/* Place all of your CSS Code in this file */
+
+/*********************************************************************************
+*
+* WEB222 – Assignment #4a
+*
+* I declare that this assignment is my own work in accordance with Seneca
+* Academic Policy. No part of this assignment has been copied manually or
+* electronically from any other source (including web sites) or distributed to
+* other students.
+*
+* Name: (Jessie) Gayeon Ko Student ID: 040 704 124 Date: Mar 25 2018
+*
+********************************************************************************/
+
+body{
+  color: rgb(91, 39, 39);
+}
+
+nav, footer{
+  background-color: rgb(91, 39, 39);
+  font-family: 'Work Sans', fantasy;
+}
+
+header{
+  background-color: pink;
+  padding: 10px 10px;
+}
+
+h1.app-title{
+  font-family: 'Alfa Slab One', fantasy;
+  font-size: 2.5em;
+  font-weight: 900;
+}
+
+div.main-table-container{
+  max-height: 70vh;
+  overflow-y: scroll;
+  border: 1pt solid;
+  background-color: rgb(255, 236, 252);
+}
+
+.main-table-top th{
+  font-family: 'Work Sans', fantasy;
+  border: 1pt solid;
+  background-color: rgb(204, 204, 200);
+  text-transform: uppercase;
+  font-size: 1.3em;
+}
+
+.main-table td{
+  font-family: 'Work Sans', fantasy;
+  border: 1pt solid;
+  word-wrap: break-word;
+  padding: 10px 10px;
+}
+
+.main-table p span{
+  color: red;
+  text-decoration: underline;
+}
+
+.center a{
+  font-family: 'Work Sans', fantasy;
+}

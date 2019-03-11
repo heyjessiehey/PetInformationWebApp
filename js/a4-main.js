@@ -65,7 +65,7 @@ function filter_zero_1(){
 
 function filter_1_3(){
 	filterType = "";
-	filterAgeMin = 0;
+	filterAgeMin = 1;
 	filterAgeMax = 3;
 	loadTableWithFilters();
 }
